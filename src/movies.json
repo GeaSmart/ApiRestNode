@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title": "Aliens",
+        "director": "James Cameron",
+        "year": 1985,
+        "rating": 8.5
+    },
+    {
+        "id": 2,
+        "title": "Terminator",
+        "director": "John Wayne",
+        "year": 1989,
+        "rating": 9.5
+    }
+]

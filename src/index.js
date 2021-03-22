@@ -3,7 +3,7 @@ const app = express();
 const morgan = require('morgan');
 
 //Settings
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 8080);
 app.set('json spaces', 2);
 
 //Middleware
@@ -17,7 +17,7 @@ app.use('/api/movies', require('./routes/movies'));
 app.use('/api/users', require('./routes/thirdparty'));
 
 // Starting the server
-app.listen(3000, () => {
+app.listen(app.get('port'), () => {
     console.log(`Server listening on port ${app.get('port')}`);
 }
 )

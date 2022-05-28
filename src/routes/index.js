@@ -5,7 +5,7 @@ const router = Router();
 router.get('/', (req, res) => {    
     res.json(
         {
-            "Title": "Hola mundo con express en AWS EC2!"
+            "Title": "Hola mundo desde Github con express en AWS EC2!"
         }
     );
 })
